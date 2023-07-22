@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh - PortFolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: rgb(2, 2, 84);
+            color: aliceblue;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 70px;
+            background-color: rgb(10, 10, 53);
+        }
+
+        nav li {
+            list-style: none;
+            margin: 0 15px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav li a:hover {
+            color: rgb(148, 148, 174);
+            font-size: 1.1rem;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0px;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+        .firstSection .buttons{
+            padding: 30px 0;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #2a2aaf;
+            color: #bed99d;
+            font-size: 1.1rem;
+            border: 1px solid white;
+            border-radius: 6px;
+            cursor: pointer;        
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 100px 0;
+        }
+
+        .purple {
+            color: rgb(31 229 230);
+
+        }
+
+        #element {
+            color: rgb(31 229 230);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background: #7e81e9;
+            height: 1.5px;
+            margin: 40px 85px;
+        }
+
+        .secondSection h1 {
+            font-size: 2.5rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 45px 14px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            background: wheat;
+            height: 70px;
+            width: 1.5px;
+            margin: 0 170px;
+
+        }
+
+        .top-image {
+            width: 35px;
+            position: relative;
+            top: -40px;
+            left: -12px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 35px;
+            width: 130px;
+            font-size: 17px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 50px;
+            color: gray;
+            width: 200px;
+            font-size: 12px;
+        }
+
+        footer {
+            background-color: #21223e;
+        }
+
+        .footer {
+            display: flex;
+            padding: 30px 100px;
+            text-align: center;
+            justify-content: space-evenly;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 250px;
+        }
+
+        .footer-first h3 {
+            position: relative;
+            top: 30%;
+        }
+
+        .footer-rights {
+            color: gray;
+            text-align: center;
+            padding: 12px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ansh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">About Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Ansh</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">
+                        Download Resume
+                    </button>
+                    <button class="btn">
+                        Visit GitHub
+                    </button>
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="bg.png" alt="Dev Photo">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span>What I have done so far?</span>
+            <h1>My Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="top-image">
+                    <div class="vertical-title">
+                        Web Developer (July 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam vel doloribus fuga.
+                        Dolorem sapiente atque reprehenderit error facilis possimus quis recusandae deserunt.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="top-image">
+                    <div class="vertical-title">
+                        Web Developer (July 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam vel doloribus fuga.
+                        Dolorem sapiente atque reprehenderit error facilis possimus quis recusandae deserunt.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="top-image">
+                    <div class="vertical-title">
+                        Web Developer (July 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam vel doloribus fuga.
+                        Dolorem sapiente atque reprehenderit error facilis possimus quis recusandae deserunt.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="top-image">
+                    <div class="vertical-title">
+                        Web Developer (July 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam vel doloribus fuga.
+                        Dolorem sapiente atque reprehenderit error facilis possimus quis recusandae deserunt.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ansh's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Membership</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Membership</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Membership</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; anshsportfolio.com | All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Data Scientist', 'Full Stack Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
